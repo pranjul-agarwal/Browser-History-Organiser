@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Browser History Organizer",
+  "version": "1.0",
+  "description": "Organizes browsing history into categories for easier access.",
+  "permissions": [
+    "history",
+    "bookmarks"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.jpeg",
+      "48": "icon48.jpeg",
+      "128": "icon128.jpeg"
+    }
+  }
+}

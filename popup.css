@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+    background-color: #9a5050;
+    color: #333;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#historyList {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#historyList div {
+    margin-bottom: 10px;
+}
+
+#historyList strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007BFF;
+}
+
+#historyList a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#historyList a:hover {
+    text-decoration: underline;
+}
